@@ -238,9 +238,9 @@ If you need environment variables or static files that won't change during the p
 
 Enjoyed this read?
 If you found this guide helpful, folow me for more on:
-- LinkedIn to get the latest updates.
-- Medium for even more Kubernetes insights and discussions.
-- Kuberada, for in-depth articles.
+- [LinkedIn](https://www.linkedin.com/in/gulcantopcu/) to get the latest updates.
+- [Medium](https://medium.com/@gulcantopcu) for even more Kubernetes insights and discussions.
+- [Kuberada](https://kuberada.devtechops.dev/index.html), for in-depth articles.
 ### References
 * [ConfigMaps Documentation](https://kubernetes.io/docs/concepts/configuration/configmap/)
 * [Minikube Documentation](https://minikube.sigs.k8s.io/docs/)
