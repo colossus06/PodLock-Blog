@@ -1,8 +1,8 @@
 ---
 myst:
   html_meta:
-    "description lang=en": "This comprehensive Kubernetes setup guide delves into configuring a Kubernetes cluster using Kubernetes The Hard Way. Explore Kubernetes components, networking, security practices, and performance optimization. Dive into advanced topics like load balancing and troubleshooting, and discover how managed Kubernetes services from cloud providers simplify cluster management. Whether you're new to Kubernetes or an experienced user, this guide offers valuable insights and actionable tips to enhance your Kubernetes skills."
-    "keywords": "Kubernetes setup guide, Kubernetes cluster configuration, Kubernetes networking, Kubernetes security, Kubernetes load balancing, Kubernetes hard way, Kubernetes best practices, Kubernetes troubleshooting, Kubernetes cluster management"
+    "description lang=en": "This detailed guide explains how Kubernetes handles dynamic updates to ConfigMaps using symlinks and kubelet. Learn how ConfigMaps work, including differences between mounting as volumes, environment variables, and subPath mounts, and how Kubernetes automatically updates ConfigMap data in real-time without requiring pod restarts. Perfect for Kubernetes users looking to optimize configuration management and understand kubelet’s role in managing ConfigMap updates."
+    "keywords": "Kubernetes ConfigMap updates, Kubernetes symlink management, kubelet ConfigMap handling, ConfigMap volume mount, Kubernetes dynamic updates, ConfigMap environment variables, ConfigMap subPath mount, Kubernetes configuration management, ConfigMap real-time updates, kubelet role in Kubernetes"
     "property=og:locale": "en_US"
     "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/symlink.png"
 ---
