@@ -90,6 +90,9 @@ EXAMPLE_KEY=First Update:env variables
 ```
 ## Mounting a ConfigMap as a Regular Volume
 Unlike environment variables or `subPath` mounts, which don't reflect updates without restarting the pod, mounting a `ConfigMap` as a volume in Kubernetes allows for dynamic updates. This means any changes to the `ConfigMap` are automatically applied to the pod without needing restarts or manual intervention.
+
+![different-cm-mounting-options](./configmap.png)
+
 The kubelet manages the lifecycle of pods on each node.
 If you mount the `config-volume` ConfigMap to the `/etc/config` directory in your pod, your deployment YAML might look like this:
 ```yaml
@@ -216,6 +219,9 @@ The speed at which an updated ConfigMap appears in your pod depends on two main 
 You can adjust the sync behavior to better suit your application’s needs tweaking the `syncFrequency`.
 
 In the worst-case scenario, an updated ConfigMap might take up to two minutes to show up in your pod. This means that if you update a ConfigMap right after a sync cycle, your pod may not see the change until both the sync loop and cache TTL have passed.
+
+![configuration-update-event](./sync.png)
+
 ## Application Awareness and Key Takeaways
 While ConfigMaps can dynamically update mounted files, not all applications handle these updates smoothly. Some applications only load their configuration during startup, which means they won’t recognize changes unless you manually refresh them, such as by sending a SIGHUP signal. Others use file watchers to detect changes in real-time. This works well for applications designed to handle configuration changes on the fly. However, if the app isn’t built for this, you must manage manual reloads or rely on complete pod restarts.
 
