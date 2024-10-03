@@ -194,6 +194,8 @@ lrwxrwxrwx 1 root root 18 Sep 25 17:50 example.key -> ..data/example.key
 ```
 You'll see the `..data` symlink now points to (`2024_09_25_18_09_31.1466192921`). The application continues to use the old version until kubelet switches the symlink.
 
+![different-cm-mounting-options](./symlink.svg)
+
 Symlink switch is an atomic operation managed by the kubelet as part of its volume reconciliation process.
 If you recheck the kubelet logs and compare the bytes manually:
 ```bash
