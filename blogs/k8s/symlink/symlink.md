@@ -220,7 +220,7 @@ You can adjust the sync behavior to better suit your application’s needs tweak
 
 In the worst-case scenario, an updated ConfigMap might take up to two minutes to show up in your pod. This means that if you update a ConfigMap right after a sync cycle, your pod may not see the change until both the sync loop and cache TTL have passed.
 
-![configuration-update-event](./sync.png)
+![configuration-update-event](./sync.svg)
 
 ## Application Awareness and Key Takeaways
 While ConfigMaps can dynamically update mounted files, not all applications handle these updates smoothly. Some applications only load their configuration during startup, which means they won’t recognize changes unless you manually refresh them, such as by sending a SIGHUP signal. Others use file watchers to detect changes in real-time. This works well for applications designed to handle configuration changes on the fly. However, if the app isn’t built for this, you must manage manual reloads or rely on complete pod restarts.
