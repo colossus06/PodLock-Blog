@@ -1,10 +1,22 @@
 (gulcan)=
 :orphan:
-# Read more from your favourite author
+# Read More From The Author
 
+::::{card-carousel} 2
+:::{card}
+:link: symlink
+:link-type: ref
+:img-bottom: ../../og/symlink.png
+:width: 50%
+:text-align: center
+:class-body: custom-card-text
+
+
+Learn how Kubernetes automates ConfigMap updates when mounted as a volume and why environment variables or subPath mounts require a pod restart for changes to take effect.
+:::
 
 :::{card}
-:link: workloads
+:link: deploy
 :link-type: ref
 :img-bottom: ../../og/deploy.png
 :width: 50%
@@ -14,6 +26,7 @@
 
 Practice and monitor zero-downtime deployments in Kubernetes with a customer support chatbot, using strategies like Blue/Green and Canary deployments and more.
 :::
+::::
 
 
 ::::{card-carousel} 2

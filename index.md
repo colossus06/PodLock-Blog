@@ -62,7 +62,19 @@ Absolutely. My guide gives you the exact resources and roadmap you need.
 
 </br>
 
-::::{card} 
+::::{card-carousel} 2
+:::{card}
+:link: symlink
+:link-type: ref
+:img-bottom: og/symlink.png
+:width: 50%
+:text-align: center
+:class-body: custom-card-text
+
+
+Learn how Kubernetes automates ConfigMap updates when mounted as a volume and why environment variables or subPath mounts require a pod restart for changes to take effect.
+:::
+
 :::{card}
 :link: deploy
 :link-type: ref
@@ -74,6 +86,7 @@ Absolutely. My guide gives you the exact resources and roadmap you need.
 
 Practice and monitor zero-downtime deployments in Kubernetes with a customer support chatbot, using strategies like Blue/Green and Canary deployments and more.
 :::
+::::
 
 ::::{card-carousel} 2
 :::{card}
@@ -269,6 +282,7 @@ blogs/get-started/labs
 ```{toctree}
 :caption: Latest Blogs
 :hidden:
+blogs/k8s/symlink/symlink.md
 blogs/k8s/deploy/deploy.md
 blogs/k8s/workloads/workloads.md
 blogs/k8s/mlops/mlops.md

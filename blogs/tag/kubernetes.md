@@ -2,8 +2,21 @@
 :orphan:
 # Topic: Read More on Kubernetes
 
+::::{card-carousel} 2
 :::{card}
-:link: workloads
+:link: symlink
+:link-type: ref
+:img-bottom: ../../og/symlink.png
+:width: 50%
+:text-align: center
+:class-body: custom-card-text
+
+
+Learn how Kubernetes automates ConfigMap updates when mounted as a volume and why environment variables or subPath mounts require a pod restart for changes to take effect.
+:::
+
+:::{card}
+:link: deploy
 :link-type: ref
 :img-bottom: ../../og/deploy.png
 :width: 50%
@@ -13,6 +26,7 @@
 
 Practice and monitor zero-downtime deployments in Kubernetes with a customer support chatbot, using strategies like Blue/Green and Canary deployments and more.
 :::
+::::
 
 
 ::::{card-carousel} 2
