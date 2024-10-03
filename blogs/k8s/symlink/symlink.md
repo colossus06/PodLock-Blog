@@ -54,9 +54,9 @@ Then, mount it in an nginx pod:
 env:
 - name: EXAMPLE_KEY
   valueFrom:
-  configMapKeyRef:
-  name: demo-config
-  key: example.key
+    configMapKeyRef:
+      name: demo-config
+      key: example.key
 ```
 If you want to verify the environment variable injection:
 ```bash
