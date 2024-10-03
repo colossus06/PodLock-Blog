@@ -91,7 +91,7 @@ EXAMPLE_KEY=First Update:env variables
 ## Mounting a ConfigMap as a Regular Volume
 Unlike environment variables or `subPath` mounts, which don't reflect updates without restarting the pod, mounting a `ConfigMap` as a volume in Kubernetes allows for dynamic updates. This means any changes to the `ConfigMap` are automatically applied to the pod without needing restarts or manual intervention.
 
-![different-cm-mounting-options](./configmap.png)
+![different-cm-mounting-options](./cm.svg)
 
 The kubelet manages the lifecycle of pods on each node.
 If you mount the `config-volume` ConfigMap to the `/etc/config` directory in your pod, your deployment YAML might look like this:
