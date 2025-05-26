@@ -18,11 +18,13 @@
 :link: ipam
 :link-type: ref
 :img-bottom: og/ipam.png
+:width: 100%
 :text-align: center
 
 :::
 ::::
 
+::::{card-carousel} 2
 :::{card}
 :link: symlink
 :link-type: ref
@@ -40,6 +42,7 @@
 :text-align: center
 
 :::
+::::
 
 ::::{card-carousel} 2
 :::{card}
@@ -48,7 +51,6 @@
 :img-bottom: og/workloads.png
 :width: 50%
 :text-align: center
-:class-body: custom-card-text
 
 :::
 
