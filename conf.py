@@ -13,7 +13,7 @@
 
 html_title = ' '
 
-project = 'kuberada-Hands-on Learning'
+project = 'PodLock'
 # release = '2024'
 
 html_show_copyright=True
@@ -31,16 +31,16 @@ extensions = [
 
 comments_config = {
    "utterances": {
-      "repo": "colossus06/kuberada-blog",
+      "repo": "colossus06/PodLock-Blog",
       "optional": "config",
    }
 }
 # -- Project information
-# copyright = "2024, Kuberada"
+# copyright = "2025, PodLock"
 author = "Gulcan Topcu"
-ogp_site_url = "https://kuberada.devtechops.dev/"
+# ogp_site_url = "https://PodLock.devtechops.dev/"
 ogp_type = "article"
-ogp_image = "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/images/mylogo.png"
+ogp_image = "https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/images/mylogo.png"
 ogp_use_first_image= True
 ogp_enable_meta_description=True
 ogp_social_cards = {
@@ -70,9 +70,9 @@ html_favicon = 'images/favicon.png'
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-copyright = "2024, Kuberada. All rights reserved"
+copyright = "2025, PodLock. All rights reserved"
 
-html_logo= "images/kuberada.png"
+html_logo= "images/mylogo.png"
 
 html_theme = 'furo'
 html_static_path = ['_static']
@@ -82,7 +82,7 @@ html_css_files = ["css/custom.css"]
 
 html_theme_options = {
     'navigation_with_keys': True,
-    "announcement": "Kuberada 💛 Hands-on Only 🏭",
+    # "announcement": "PodLock 💛 Hands-on Only 🏭",
     "light_css_variables": {
         # "font-stack": "Ubuntu, sans-serif",
         # "font-stack--monospace": "Oswald, monospace",
