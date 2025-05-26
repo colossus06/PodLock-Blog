@@ -1,3 +1,15 @@
+---
+myst:
+  html_meta:
+    "description lang=en": "This article traces packets between two pods on the same node using `tshark`, confirms the ARP exchange, inspects the forwarding path through the host’s veth interfaces, and explores how Kindnet achieves L3 routing—*while still relying on ARP resolution on the pod side*."
+    "keywords": "Kubernetes, CNI, Kindnet, veth pair, pod networking, DevOps, Linux namespaces, Gulcan Topcu, Minikube, ptp plugin"
+    "property=og:locale": "en_US"
+    "property=og:image": "https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/ptp.png"
+---
+
+<img src="https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/ptp.png" alt="ptp" class="bg-primary">
+ 
+(ptp)=
 # Inside Intra-Node Pod Traffic in Kubernetes: How Kindnet with PTP Moves Packets
 
 When a pod wants to talk to another pod on the same node, each sends traffic to its gateway (`10.244.X.1`) via `eth0` which resolves to the host-side veth on the same node. The host then routes packets to the peer pod’s veth using static entries in it's routing table. But before that hop, the pod still ARPs for its gateway.

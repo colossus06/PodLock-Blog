@@ -4,12 +4,12 @@ myst:
     "description lang=en": "This article breaks down the networking path a pod inherits at creation, using a Minikube cluster running Kubernetes with Kindnet. You'll see how the Kindnet CNI assigns IPs from the node’s PodCIDR, creates veth pairs linking the pod to the host network, and installs routing rules that define how the pod communicates within the cluster."
     "keywords": "Kubernetes, CNI, Kindnet, veth pair, pod networking, DevOps, Linux namespaces, Gulcan Topcu, Minikube, ptp plugin"
     "property=og:locale": "en_US"
-    "property=og:image": "https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/ptp.png"
+    "property=og:image": "https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/ipam.png"
 ---
 
-<img src="https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/ptp.png" alt="ptp" class="bg-primary">
+<img src="https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/ipam.png" alt="ipam" class="bg-primary">
  
-(ptp)=
+(ipam)=
 # Inside a Pod’s Birth: Veth Pairs, IPAM, and Routing with Kindnet CNI
 
 When a Kubernetes pod starts, it doesn't just spin up a container. It gets a full, isolated network stack—complete with its own IP address, routing table, and virtual interface. But how exactly does this happen under the hood, especially when using the Kindnet CNI plugin?
@@ -200,7 +200,7 @@ ip route | grep 10.244
 
 To summarize, when Kubernetes schedules a pod, it hands off setting up thenetworking to the CNI. Kindnet takes over and wires the pod into the cluster network. This setup gives the pod a routable IP, a default gateway, and a clean L3 path out through the host. But what happens when it starts talking to another pod?
 
-➡️ Up next: **Inside Intra-Node Pod Traffic in Kubernetes: How Kindnet with PTP Moves Packets** where we trace packets from one pod to another on the same node.
+➡️ Up next: **[Inside Intra-Node Pod Traffic in Kubernetes: How Kindnet with PTP Moves Packets](https://podlock.readthedocs.io/blogs/k8s/ptp/ptp.html)** where we trace packets from one pod to another on the same node.
 
 ## References
 
