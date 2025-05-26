@@ -18,21 +18,17 @@
 :link: ipam
 :link-type: ref
 :img-bottom: og/ipam.png
-:width: 50%
 :text-align: center
-:class-body: custom-card-text
 
 :::
 ::::
 
-::::{card-carousel} 2
 :::{card}
 :link: symlink
 :link-type: ref
 :img-bottom: og/symlink.png
 :width: 50%
 :text-align: center
-:class-body: custom-card-text
 
 :::
 
@@ -42,10 +38,8 @@
 :img-bottom: og/deploy.png
 :width: 50%
 :text-align: center
-:class-body: custom-card-text
 
 :::
-::::
 
 ::::{card-carousel} 2
 :::{card}
