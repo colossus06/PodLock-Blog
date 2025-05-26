@@ -4,31 +4,13 @@ myst:
     "description lang=en": "Explore the potential of Istio, a robust service mesh solution, with our comprehensive guide. Learn how to effortlessly manage microservices, enhance CI/CD processes, and boost observability. Follow step-by-step instructions for Istio installation using istioctl and Helm, ensuring seamless microservices orchestration. Dive into Istio's powerful features and monitor your service mesh with Prometheus and Grafana."
     "keywords": "Kubernetes, hands-on, Gulcan Topcu, Devops, istio, kube-proxy, grafana, prometheus, k3d, istioctl"
     "property=og:locale": "en_US"
-    "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/istio.png"
+    "property=og:image": "https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/istio.png"
 ---
 
-<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/istio.png" alt="istio" class="bg-primary">
+<img src="https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/istio.png" alt="istio" class="bg-primary">
  
 (istio)=
 # Unlocking Istio's Power: A Step-by-Step Guide to Seamless Microservices Management
-
-```{article-info}
-:avatar: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/author.png
-:avatar-link: ../../../blogs/authors/gulcan.html
-:author: Gulcan Topcu
-:date: Jan 31, 2024
-:read-time: 15 min read
-:class-container: sd-p-2 sd-outline-light sd-rounded-2 sd-shadow-md
-```
-
-🏷️**Tagged with:**
-
-```{button-link} ../../../blogs/tag/kubernetes.html
-:color: success
-:outline:
-:shadow:
-kubernetes
-```
 
 In the dynamic world of microservices, orchestrating, securing, and monitoring services can be intricate. Istio, a robust service mesh, steps in as the solution, offering a holistic approach to traffic management, security, and observability. We will see 2 different ways to install and get started with istio: with istioctl and helm. Let's dive into the intricacies of Istio and explore two different installation methods: using `istioctl` and Helm.
 
@@ -305,11 +287,3 @@ If you found this guide helpful,check our blog archives 📚✨
 
 Until next time!
 
-<script src="https://utteranc.es/client.js"
-        repo="colossus06/Kuberada-Blog"
-        issue-term="pathname"
-        label="blog"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>

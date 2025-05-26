@@ -4,31 +4,13 @@ myst:
     "description lang=en": "Master Kubernetes workload selection with this hands-on guide. Explore practical examples and a mindmap to simplify complex concepts like Deployments, StatefulSets, DaemonSets, CronJobs, and Jobs. Discover unexpected insights into their resilience, versatility, and power.  Level up your Kubernetes expertise and build applications that thrive"
     "keywords": "Kubernetes, Workloads, Deployments, StatefulSets, DaemonSets, CronJobs, Jobs, Pod Disruption Budgets, Horizontal Pod Autoscaling, Init Containers, Sidecar Containers, Resource Management, Application Resilience, Scalability, Efficiency, Cloud Native, Kubernetes Tutorial, DevOps"
     "property=og:locale": "en_US"
-    "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/workloads.png"
+    "property=og:image": "https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/workloads.png"
 ---
 
-<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/workloads.png" alt="workloads" class="bg-primary">
+<img src="https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/workloads.png" alt="workloads" class="bg-primary">
  
 (workloads)=
 # Choosing the Perfect Kubernetes Workload: A Practical Guide for Application Success
-
-```{article-info}
-:avatar: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/author.png
-:avatar-link: ../../../blogs/authors/gulcan.html
-:author: Gulcan Topcu
-:date: Jul 12, 2024
-:read-time: 20 min read
-:class-container: sd-p-2 sd-outline-light sd-rounded-2 sd-shadow-md
-```
-
-🏷️**Tagged with:**
-
-```{button-link} ../../../blogs/tag/kubernetes.html
-:color: success
-:outline:
-:shadow:
-kubernetes
-```
 
 Choosing the optimal Kubernetes workload can be a critical factor in the success of your application deployment. Mismatched workloads often lead to performance bottlenecks, unnecessary complexity, and wasted resources.
 
@@ -688,11 +670,3 @@ If you found this guide helpful, follow me on:
 
 Until next time, happy deploying!
 
-<script src="https://utteranc.es/client.js"
-        repo="colossus06/Kuberada-Blog"
-        issue-term="pathname"
-        label="blog"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>

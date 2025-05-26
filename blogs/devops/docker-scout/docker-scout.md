@@ -4,30 +4,13 @@ myst:
     "description lang=en": "Description: Explore a comprehensive guide on securing Docker images using Docker Scout, a powerful security tool by Docker. Learn to scan, identify, and address vulnerabilities, minimizing risks in production environments"
     "keywords": "Docker, Docker Scout, Security, Vulnerabilities, Production Environment, CVE, Image Scanning, Image Security, Practical Guide, Containerization, DevOps, Software Security, Cybersecurity."
     "property=og:locale": "en_US"
-    "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/docker-scout.png"
+    "property=og:image": "https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/docker-scout.png"
 ---
 
-<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/docker-scout.png" alt="docker-scout" class="bg-primary">
+<img src="https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/docker-scout.png" alt="docker-scout" class="bg-primary">
 
 (docker-scout)=
 # Securing Docker Images with Docker Scout: A Practical Guide
-
-```{article-info}
-:avatar: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/author.png
-:avatar-link: ../../../blogs/authors/gulcan.html
-:author: Gulcan Topcu
-:date: Feb 1, 2024
-:read-time: 10 min read
-:class-container: sd-p-2 sd-outline-light sd-rounded-2 sd-shadow-md
-```
-🏷️**Tagged with:**
-
-```{button-link} ../../../blogs/tag/container.html
-:color: success
-:outline:
-:shadow:
-container
-```
 
 Ensuring the security of Docker images is vital for maintaining the overall security posture of your organization. Docker Scout, a security tool developed by Docker, excels in scanning Docker images for potential vulnerabilities and provides valuable recommendations to enhance image security. In this blog post, we will guide you through the process of leveraging Docker Scout to scan and secure Docker images. Join me as we learn to scan, identify, and address vulnerabilities in container images, effectively minimizing risks in production environments while aligning with cloud-native security practices.
 

@@ -4,31 +4,13 @@ myst:
     "description lang=en": "Learn how to install and configure GitLab Runner on Windows for seamless CI/CD workflows. Follow our comprehensive guide with practical examples"
     "keywords": "Kubernetes, hands-on, Gulcan Topcu, Devops, Gitlab, gitlab runner, cicd"
     "property=og:locale": "en_US"
-    "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/gitlab-runner.png"
+    "property=og:image": "https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/gitlab-runner.png"
 ---
 
-<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/gitlab-runner.png" alt="gitlab-runner" class="bg-primary">
+<img src="https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/gitlab-runner.png" alt="gitlab-runner" class="bg-primary">
 
 (gitlab-runner)=
 # Getting Started with GitLab Runner on Windows - Step-by-Step Guide
-
-```{article-info}
-:avatar: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/author.png
-:avatar-link: ../../../blogs/authors/gulcan.html
-:author: Gulcan Topcu
-:date: Jan 26, 2024
-:read-time: 5 min read
-:class-container: sd-p-2 sd-outline-light sd-rounded-2 sd-shadow-md
-```
-
-🏷️**Tagged with:**
-
-```{button-link} ../../../blogs/tag/devops.html
-:color: success
-:outline:
-:shadow:
-devops
-```
 
 Did you happen to receive an email notification from GitLab starting with "namespace has 5% or less Shared Runner Pipeline minutes remaining" 😄? This email underscores the criticality of managing your Shared Runner Pipeline minutes. To optimize your CI/CD (Continuous Integration/Continuous Deployment) processes, it's crucial to understand and utilize GitLab Runners effectively.
 

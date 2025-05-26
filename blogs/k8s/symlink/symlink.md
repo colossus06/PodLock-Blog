@@ -4,31 +4,13 @@ myst:
     "description lang=en": "This detailed guide explains how Kubernetes handles dynamic updates to ConfigMaps using symlinks and kubelet. Learn how ConfigMaps work, including differences between mounting as volumes, environment variables, and subPath mounts, and how Kubernetes automatically updates ConfigMap data in real-time without requiring pod restarts. Perfect for Kubernetes users looking to optimize configuration management and understand kubelet’s role in managing ConfigMap updates."
     "keywords": "Kubernetes ConfigMap updates, Kubernetes symlink management, kubelet ConfigMap handling, ConfigMap volume mount, Kubernetes dynamic updates, ConfigMap environment variables, ConfigMap subPath mount, Kubernetes configuration management, ConfigMap real-time updates, kubelet role in Kubernetes"
     "property=og:locale": "en_US"
-    "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/symlink.png"
+    "property=og:image": "https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/symlink.png"
 ---
 
-<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/symlink.png" alt="Atomic ConfigMap Updates in Kubernetes: How Symlinks and Kubelet Make It Happen" class="bg-primary">
+<img src="https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/symlink.png" alt="Atomic ConfigMap Updates in Kubernetes: How Symlinks and Kubelet Make It Happen" class="bg-primary">
 
 (symlink)=
 # Atomic ConfigMap Updates in Kubernetes: How Symlinks and Kubelet Make It Happen
-
-```{article-info}
-:avatar: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/author.png
-:avatar-link: ../../../blogs/authors/gulcan.html
-:author: Gulcan Topcu
-:date: Oct 3, 2024
-:read-time: 10 min read
-:class-container: sd-p-2 sd-outline-light sd-rounded-2 sd-shadow-md
-```
-
-🏷️**Tagged with:**
-
-```{button-link} ../../../blogs/tag/kubernetes.html
-:color: success
-:outline:
-:shadow:
-kubernetes
-```
 
 TL;DR *If you mount a ConfigMap as a volume, Kubernetes automatically updates the file system when the ConfigMap changes. However, if you're using environment variables or subPath mounts, updates aren't reflected unless the pod is restarted.*
 
@@ -260,11 +242,4 @@ If you found this guide helpful, folow me for more on:
 * [External Secrets Operator](https://external-secrets.io/)
 * [Helm Documentation](https://helm.sh/docs/)
 
-<script src="https://utteranc.es/client.js"
-        repo="colossus06/Kuberada-Blog"
-        issue-term="pathname"
-        label="blog"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+

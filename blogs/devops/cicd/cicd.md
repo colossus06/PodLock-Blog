@@ -4,16 +4,16 @@ myst:
     "description lang=en": "Craft a robust CI/CD pipeline for Python applications. Leverage GitOps principles for secure deployments, automated testing, and seamless production rollouts using GitHub Actions and Argo CD."
     "keywords": "Kubernetes, hands-on, Gulcan Topcu, Devops, Secure GitOps CI/CD pipeline for Python deployments, cicd, Argo CD, Canary Deployments, GitHub Actions, Terraform, AKS, Argo Rollouts"
     "property=og:locale": "en_US"
-    "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/cicd.png"
+    "property=og:image": "https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/cicd.png"
 ---
 
-<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/cicd.png" alt="gitlab-runner" class="bg-primary">
+<img src="https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/cicd.png" alt="gitlab-runner" class="bg-primary">
 
 (cicd)=
 # Canary Deployments Made Easy: A CI/CD Journey with GitHub Actions and Argo CD Rollouts
 
 ```{article-info}
-:avatar: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/author.png
+:avatar: https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/author.png
 :avatar-link: ../../../blogs/authors/gulcan.html
 :author: Gulcan Topcu
 :date: March 24, 2024

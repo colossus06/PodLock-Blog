@@ -4,31 +4,13 @@ myst:
     "description lang=en": "This comprehensive Kubernetes setup guide delves into configuring a Kubernetes cluster using Kubernetes The Hard Way. Explore Kubernetes components, networking, security practices, and performance optimization. Dive into advanced topics like load balancing and troubleshooting, and discover how managed Kubernetes services from cloud providers simplify cluster management. Whether you're new to Kubernetes or an experienced user, this guide offers valuable insights and actionable tips to enhance your Kubernetes skills."
     "keywords": "Kubernetes setup guide, Kubernetes cluster configuration, Kubernetes networking, Kubernetes security, Kubernetes load balancing, Kubernetes hard way, Kubernetes best practices, Kubernetes troubleshooting, Kubernetes cluster management"
     "property=og:locale": "en_US"
-    "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/hard.png"
+    "property=og:image": "https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/hard.png"
 ---
 
-<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/hard.png" alt="kubernetes the hard way" class="bg-primary">
+<img src="https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/hard.png" alt="kubernetes the hard way" class="bg-primary">
 
 (hard)=
 # A High-Level Overview of Kubernetes The Hard Way on WSL
-
-```{article-info}
-:avatar: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/author.png
-:avatar-link: ../../../blogs/authors/gulcan.html
-:author: Gulcan Topcu
-:date: March 8, 2024
-:read-time: 5 min read
-:class-container: sd-p-2 sd-outline-light sd-rounded-2 sd-shadow-md
-```
-
-🏷️**Tagged with:**
-
-```{button-link} ../../../blogs/tag/kubernetes.html
-:color: success
-:outline:
-:shadow:
-kubernetes
-```
 
 Grasping the inner workings of Kubernetes can be challenging. Sure, managed Kubernetes services make things easier. But for those who crave a deep understanding of how Kubernetes really works, Kubernetes The Hard Way offers a hands-on approach to setting up a Kubernetes cluster, providing a deeper understanding of its components and their interactions. TThis (mostly) concise,article aims to outline the basic flow of the steps, include some smoke tests on a python flask application (like verifying data at rest encryption, DNS resolving, pod-to-pod communication), and offer various tips. 
 
@@ -156,14 +138,7 @@ If you found this guide helpful,check our blog archives 📚✨
 
 Until next time!
 
-<script src="https://utteranc.es/client.js"
-        repo="colossus06/Kuberada-Blog"
-        issue-term="pathname"
-        label="blog"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+
 
 
 

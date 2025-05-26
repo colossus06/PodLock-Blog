@@ -6,31 +6,13 @@ myst:
     "property=og:locale": "en_US"
     "property=og:type" : "article"
     "property=og:title" : "How to Setup and Connect ArgoCD with AKS in 5 mins"
-    "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/argo.png"
+    "property=og:image": "https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/argo.png"
 ---
 
-<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/argo.png" alt="k8s-architecture" class="bg-primary">
+<img src="https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/argo.png" alt="k8s-architecture" class="bg-primary">
 
 (argo)=
 # How to Setup and Connect ArgoCD with AKS in 5 mins
-
-```{article-info}
-:avatar: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/author.png
-:avatar-link: ../../../blogs/authors/gulcan.html
-:author: Gulcan Topcu
-:date: March 19, 2024
-:read-time: 5 min read
-:class-container: sd-p-2 sd-outline-light sd-rounded-2 sd-shadow-md
-```
-
-🏷️**Tagged with:**
-
-```{button-link} ../../../blogs/tag/kubernetes.html
-:color: success
-:outline:
-:shadow:
-kubernetes
-```
 
 ArgoCD is a powerful tool that utilizes GitOps principles to automate and streamline your Kubernetes application deployments. It continuously monitors your Git repository, acting as the single source of truth for your desired application state. When it detects a change, ArgoCD controller automatically reconciles the running applications with the configurations in your Git repository, ensuring a consistent and version-controlled deployment process. 
 
@@ -174,11 +156,3 @@ If you found this guide helpful,check our blog archives 📚✨
 
 Until next time!
 
-<script src="https://utteranc.es/client.js"
-        repo="colossus06/Kuberada-Blog"
-        issue-term="pathname"
-        label="blog"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>

@@ -4,31 +4,13 @@ myst:
     "description lang=en": "Learn how to secure your Python application running on Azure Kubernetes Service (AKS) with HTTPS. This comprehensive guide covers deploying NGINX Ingress Controller, setting up Let's Encrypt with Cert-Manager for SSL certificates, configuring DNS records, and deploying your application. Follow these steps to ensure your AKS application is accessed securely over HTTPS."
     "keywords": "AKS, Azure Kubernetes Service, HTTPS, NGINX Ingress Controller, Let's Encrypt, Cert-Manager, SSL certificates, DNS records, Python application, Kubernetes, Terraform, secure application deployment"
     "property=og:locale": "en_US"
-    "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ingress-ssl.png"
+    "property=og:image": "https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/ingress-ssl.png"
 ---
 
-<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/ingress-ssl.png" alt="Let's Encrypt Your Way" class="bg-primary">
+<img src="https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/ingress-ssl.png" alt="Let's Encrypt Your Way" class="bg-primary">
 
 (ingress-ssl)=
 # Secure Your AKS Application with HTTPS: Let's Encrypt Your Way!
-
-```{article-info}
-:avatar: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/author.png
-:avatar-link: ../../../blogs/authors/gulcan.html
-:author: Gulcan Topcu
-:date: March 21, 2024
-:read-time: 5 min read
-:class-container: sd-p-2 sd-outline-light sd-rounded-2 sd-shadow-md
-```
-
-🏷️**Tagged with:**
-
-```{button-link} ../../../blogs/tag/kubernetes.html
-:color: success
-:outline:
-:shadow:
-kubernetes
-```
 
 Securing the CI/CD pipeline is crucial, but what about the deployed application? So, in this guide, I will focus on securing a Python application I developed for demo purposes, which serves up those adorable dynamic cat images running on AKS. (More will come on how the whole CICD pipeline and automated deployment looks like in another article...)
 
@@ -276,11 +258,3 @@ If you found this guide helpful,check our blog archives 📚✨
 
 Until next time!
 
-<script src="https://utteranc.es/client.js"
-        repo="colossus06/Kuberada-Blog"
-        issue-term="pathname"
-        label="blog"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>

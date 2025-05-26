@@ -6,31 +6,13 @@ myst:
     "property=og:locale": "en_US"
     "property=og:type" : "article"
     "property=og:title" : "Understanding Architecture of a Kubernetes Cluster"
-    "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/kubernetes-architecture.png"
+    "property=og:image": "https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/kubernetes-architecture.png"
 ---
 
-<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/kubernetes-architecture.png" alt="k8s-architecture" class="bg-primary">
+<img src="https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/kubernetes-architecture.png" alt="k8s-architecture" class="bg-primary">
 
 (architecture)=
 # Understanding Architecture of a Kubernetes Cluster
-
-```{article-info}
-:avatar: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/author.png
-:avatar-link: ../../../blogs/authors/gulcan.html
-:author: Gulcan Topcu
-:date: Jan 14, 2024
-:read-time: 5 min read
-:class-container: sd-p-2 sd-outline-light sd-rounded-2 sd-shadow-md
-```
-
-🏷️**Tagged with:**
-
-```{button-link} ../../../blogs/tag/kubernetes.html
-:color: success
-:outline:
-:shadow:
-kubernetes
-```
 
 Kubernetes, an open-source container orchestration platform, has transformed the landscape of deploying and managing containerized applications. To harness its power effectively, it's crucial to comprehend the architecture that underpins its scalability and fault-tolerance. Let's navigate through the key components that makes up the Kubernetes architecture.
 
@@ -155,12 +137,5 @@ Until next time!
 
 
 
-<script src="https://utteranc.es/client.js"
-        repo="colossus06/Kuberada-Blog"
-        issue-term="pathname"
-        label="blog"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+
 

@@ -4,31 +4,13 @@ myst:
     "description lang=en": "Explore how to revolutionize your MLOps pipeline with Kubeflow and KServe in our detailed guide. Learn to predict customer churn using Flask, streamline model deployment, and enhance scalability. Follow our step-by-step instructions to implement efficient MLOps workflows and monitor your deployments with Prometheus and Grafana."
     "keywords": "MLOps, Kubeflow, KServe, customer churn prediction, Flask, Kubernetes, microservices, DevOps, Gulcan Topcu, model deployment, scalability, CI/CD, observability, Prometheus, Grafana, machine learning, ML workflows, model serving, serverless MLOps, automation, data-driven businesses, end-to-end MLOps, Kubernetes-native, resource optimization, deployment guide, step-by-step instructions, monitoring tools."
     "property=og:locale": "en_US"
-    "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/mlops.png"
+    "property=og:image": "https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/mlops.png"
 ---
 
-<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/mlops.png" alt="mlops" class="bg-primary">
+<img src="https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/mlops.png" alt="mlops" class="bg-primary">
  
 (mlops)=
 # Transforming MLOps with Kubeflow & KServe: Churn Prediction
-
-```{article-info}
-:avatar: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/author.png
-:avatar-link: ../../../blogs/authors/gulcan.html
-:author: Gulcan Topcu
-:date: Jul 3, 2024
-:read-time: 12 min read
-:class-container: sd-p-2 sd-outline-light sd-rounded-2 sd-shadow-md
-```
-
-🏷️**Tagged with:**
-
-```{button-link} ../../../blogs/tag/kubernetes.html
-:color: success
-:outline:
-:shadow:
-kubernetes
-```
 
 As a Kubernetes wrangler, you have probably heard the buzz about MLOps and its potential to revolutionize data-driven businesses.
 
@@ -264,11 +246,3 @@ Until next time!
 [^1]: [Harvard Business Review: The Value of Keeping the Right Customers](https://hbr.org/2014/10/the-value-of-keeping-the-right-customers)
 
 
-<script src="https://utteranc.es/client.js"
-        repo="colossus06/Kuberada-Blog"
-        issue-term="pathname"
-        label="blog"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>

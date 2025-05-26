@@ -4,30 +4,13 @@ myst:
     "description lang=en": "Dive into GitLab Container Registry using the powerful buildx tool. Securely locate, authenticate, and build Docker images with our step-by-step guide. Uncover the capabilities of buildx recommended by GitLab and optimize your container building process."
     "keywords": "Kubernetes, hands-on, Gulcan Topcu, Devops, Gitlab, container registry, buildx, multi-arch build"
     "property=og:locale": "en_US"
-    "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/gitlab-container-registry.png"
+    "property=og:image": "https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/gitlab-container-registry.png"
 ---
 
-<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/gitlab-container-registry.png" alt="gitlab-container-registry" class="bg-primary">
+<img src="https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/gitlab-container-registry.png" alt="gitlab-container-registry" class="bg-primary">
 
 (container-registry)=
 # Mastering GitLab Container Registry with Buildx: Your Comprehensive Guide
-
-```{article-info}
-:avatar: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/author.png
-:avatar-link: ../../../blogs/authors/gulcan.html
-:author: Gulcan Topcu
-:date: Jan 20, 2024
-:read-time: 10 min read
-:class-container: sd-p-2 sd-outline-light sd-rounded-2 sd-shadow-md
-```
-🏷️**Tagged with:**
-
-```{button-link} ../../../blogs/tag/devops.html
-:color: success
-:outline:
-:shadow:
-devops
-```
 
 In this article, we'll guide you through the process of getting started with GitLab Container Registry using the powerful `buildx` tool. Follow the steps below to locate the container registry, authenticate securely, and build your Docker image.
 

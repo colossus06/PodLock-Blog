@@ -4,31 +4,13 @@ myst:
     "description lang=en": "Learn how to achieve zero-downtime deployments with Kubernetes using advanced strategies like Blue/Green and Canary deployments. This comprehensive guide dives deep into Kubernetes deployment techniques, offering real-world examples, code snippets, and practical tips to keep your applications running smoothly during updates. Perfect for DevOps professionals aiming to master seamless, uninterrupted deployments."
     "keywords": "Kubernetes zero-downtime deployments, Blue/Green deployments Kubernetes, Canary deployments Kubernetes, Kubernetes deployment strategies, seamless Kubernetes deployments, Kubernetes DevOps, Kubernetes deployment best practices, Kubernetes deployment guide, zero-downtime Kubernetes, advanced Kubernetes techniques, rolling updates Kubernetes, Kubernetes deployment automation, Kubernetes GitOps, Kubernetes CI/CD, Kubernetes monitoring tools, Kubernetes security"
     "property=og:locale": "en_US"
-    "property=og:image": "https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/workloads.png"
+    "property=og:image": "https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/workloads.png"
 ---
 
-<img src="https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/deploy.png" alt="deploy" class="bg-primary">
+<img src="https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/deploy.png" alt="deploy" class="bg-primary">
  
 (deploy)=
 # Kubernetes: The Art of Zero-Downtime Deployments
-
-```{article-info}
-:avatar: https://raw.githubusercontent.com/colossus06/kuberada-blog/main/og/author.png
-:avatar-link: ../../../blogs/authors/gulcan.html
-:author: Gulcan Topcu
-:date: Aug 5, 2024
-:read-time: 25 min read
-:class-container: sd-p-2 sd-outline-light sd-rounded-2 sd-shadow-md
-```
-
-🏷️**Tagged with:**
-
-```{button-link} ../../../blogs/tag/kubernetes.html
-:color: success
-:outline:
-:shadow:
-kubernetes
-```
 
 Downtime is a nightmare for businesses, costing money and eroding customer trust. With its powerful container orchestration capabilities, Kubernetes offers a solution: seamless deployments that keep your application running smoothly even during updates. However, achieving this zero-downtime magic requires a strategic approach and an understanding of advanced techniques.
 
@@ -736,11 +718,3 @@ Until next time, happy deploying!
 
 
 
-<script src="https://utteranc.es/client.js"
-        repo="colossus06/Kuberada-Blog"
-        issue-term="pathname"
-        label="blog"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
