@@ -222,7 +222,7 @@ SNAT is bypassed because iptables has a `RETURN` rule for traffic staying within
 
 Now that we’ve explored intra-node traffic, the next logical step is to go cross-node.
 
-⬅️ Previously: **Inside a Pod’s Birth: Veth Pairs, IPAM, and Routing with Kindnet CNI** where we teardown veth pairs, `/32` routes, and how `ptp` links pods to the host.
+⬅️ Previously: **[Inside a Pod’s Birth: Veth Pairs, IPAM, and Routing with Kindnet CNI](https://podlock.readthedocs.io/blogs/k8s/ipam/ipam.html)** where we teardown veth pairs, `/32` routes, and how `ptp` links pods to the host.
 
 ➡️ Up next: **Inter-Node Pod Traffic with Kindnet: The No-Overlay Walkthrough** where we’ll trace packets as they leave one node and arrive on another using static `/24` routes.
 

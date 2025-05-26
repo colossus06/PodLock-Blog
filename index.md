@@ -181,7 +181,7 @@
 ```{toctree}
 :caption: Latest Blogs
 :hidden:
-blogs/k8s/ipam/ipam.md
+blogs/k8s/ptp/ptp.md
 blogs/k8s/ipam/ipam.md
 blogs/k8s/symlink/symlink.md
 blogs/k8s/deploy/deploy.md
