@@ -2,7 +2,7 @@
 
 <p style="font-size: 24px;">Hi, I'm Gulcan.</p>
 
-<p style="font-size: 18px; font-weight: bold; color: #2980b9;">
+<p style="font-size: 18px; font-weight: bold; color:rgb(82, 167, 13);">
 I'm a Kubernetes engineer and Security/DevOps specialist.
 </p>
 
@@ -10,7 +10,7 @@ I'm a Kubernetes engineer and Security/DevOps specialist.
 I automate the complex, solve real-world problems, and empower teams to build reliable, scalable systems.
 </p>
 
-<p style="font-size: 18px; font-weight: bold; color: #2980b9;">
+<p style="font-size: 18px; font-weight: bold; color: rgb(82, 167, 13)">
 My passion? Turning theory into practice.
 </p>
 
