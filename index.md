@@ -7,60 +7,23 @@
 <p style="font-size: 18px; font-weight: bold; color: #2980b9;">Let's turn theory into practice.</p>
 
 
-
-<!-- <iframe src="_static/ckad-sprint-tracker/index.html" width="100%" height="600px" style="border:none;"></iframe> -->
-
-
-
-<!-- ## K8s Certified: The 15-Day CKAD Sprint
-
-Ace the CKAD exam in 15 days? 
-
-Absolutely. My guide gives you the exact resources and roadmap you need. 
-
-
-:::{card} 
-:link: 15
-:link-type: ref
-:img-background: ./15-days.png
-:class-card: sd-text-black
-:width: 100%
-:text-align: center
-
-::: -->
-
-
-
-<!-- :::{card} 
-:link-type: ref
-:img-top: og/architecture.png
-:shadow: lg
-:margin: 5
-:width: 75%
-:text-align: center
-{ref}`architecture`
-+++
-:::
-
-:::{card} 
-:link-type: ref
-:img-top: og/architecture.png
-:shadow: lg
-:margin: 5
-:width: 75%
-:text-align: center
-{ref}`architecture`
-+++
-::: -->
-
-
 <!-- <img src="https://api.thegreenwebfoundation.org/greencheckimage/kuberada.devtechops.dev?nocache=true" alt="This website is hosted Green - checked by thegreenwebfoundation.org"> -->
-
-
 
 ## Latest Blogs
 
 </br>
+
+::::{card-carousel} 
+:::{card}
+:link: ipam
+:link-type: ref
+:img-bottom: og/ipam.png
+:width: 50%
+:text-align: center
+:class-body: custom-card-text
+
+:::
+::::
 
 ::::{card-carousel} 2
 :::{card}
@@ -71,8 +34,6 @@ Absolutely. My guide gives you the exact resources and roadmap you need.
 :text-align: center
 :class-body: custom-card-text
 
-
-Learn how Kubernetes automates ConfigMap updates when mounted as a volume and why environment variables or subPath mounts require a pod restart for changes to take effect.
 :::
 
 :::{card}
@@ -83,8 +44,6 @@ Learn how Kubernetes automates ConfigMap updates when mounted as a volume and wh
 :text-align: center
 :class-body: custom-card-text
 
-
-Practice and monitor zero-downtime deployments in Kubernetes with a customer support chatbot, using strategies like Blue/Green and Canary deployments and more.
 :::
 ::::
 
@@ -97,8 +56,6 @@ Practice and monitor zero-downtime deployments in Kubernetes with a customer sup
 :text-align: center
 :class-body: custom-card-text
 
-
-Learn which workload is best for your application success.
 :::
 
 :::{card}
@@ -109,8 +66,6 @@ Learn which workload is best for your application success.
 :text-align: center
 :class-body: custom-card-text
 
-
-Learn how Kubeflow and KServe facilitate MLOps, simplifying the deployment and scaling of machine learning models on Kubernetes.
 :::
 
 ::::
@@ -124,7 +79,6 @@ Learn how Kubeflow and KServe facilitate MLOps, simplifying the deployment and s
 :class-body: custom-card-text
 
 
-Gain a deeper understanding of Kubernetes architecture by building a cluster manually in WSL.
 :::
 
 :::{card}
@@ -135,8 +89,6 @@ Gain a deeper understanding of Kubernetes architecture by building a cluster man
 :text-align: center
 :class-body: custom-card-text
 
-
-Master the art of canary deployments with GitHub Actions and Argo CD Rollouts.
 :::
 ::::
 
@@ -150,8 +102,6 @@ Master the art of canary deployments with GitHub Actions and Argo CD Rollouts.
 :text-align: center
 :class-body: custom-card-text
 
-
-Learn how to secure your Kubernetes applications with free SSL certificates using Cert-Manager and Let's Encrypt.
 :::
 
 :::{card}
@@ -163,7 +113,6 @@ Learn how to secure your Kubernetes applications with free SSL certificates usin
 :class-body: custom-card-text
 
 
-Learn to simplify and automate Kubernetes deployments with Argo CD
 :::
 ::::
 
@@ -177,8 +126,6 @@ Learn to simplify and automate Kubernetes deployments with Argo CD
 :text-align: center
 :class-body: custom-card-text
 
-
-Simplify your Docker image management with Docker Scout: find, compare, and choose the perfect images for your applications.
 :::
 
 :::{card}
@@ -190,7 +137,6 @@ Simplify your Docker image management with Docker Scout: find, compare, and choo
 :class-body: custom-card-text
 
 
-Gain an understanding of Istio service mesh and learn how to effectively implement it on your Kubernetes clusters.
 :::
 ::::
 
@@ -206,7 +152,6 @@ Gain an understanding of Istio service mesh and learn how to effectively impleme
 :class-body: custom-card-text
 
 
-Streamline your CI/CD pipelines with GitLab's integrated container registry and Buildx, enabling efficient image building, management, and deployment.
 :::
 
 :::{card}
@@ -218,7 +163,6 @@ Streamline your CI/CD pipelines with GitLab's integrated container registry and 
 :class-body: custom-card-text
 
 
-Unlock the power of GitLab CI/CD by harnessing GitLab Runner to execute your pipelines seamlessly, whether on-premises or in the cloud.
 :::
 ::::
 
@@ -233,7 +177,6 @@ Unlock the power of GitLab CI/CD by harnessing GitLab Runner to execute your pip
 :class-body: custom-card-text
 
 
-Gain a deep understanding of Kubernetes' fundamental architecture and core components, laying the foundation for effective cluster management and application deployment.
 :::
 
 :::{card}
@@ -244,44 +187,13 @@ Gain a deep understanding of Kubernetes' fundamental architecture and core compo
 :text-align: center
 :class-body: custom-card-text
 
-
-Learn how to leverage ephemeral storage in Kubernetes for efficient resource utilization and improved application performance.
 :::
 ::::
-
-
-
-
-<!-- ```{toctree}
-:caption: Get Started
-:hidden:
-blogs/get-started/k8s
-blogs/get-started/devops
-blogs/get-started/kuberada
-
-``` -->
-
-<!-- ```{toctree}
-:caption: Blogs by Domains
-:hidden:
-blogs/ckad/ckad-collection
-blogs/devops/devops-collection
-``` -->
-
-<!-- </br>
-
-```{toctree}
-:caption: Labs
-:hidden:
-blogs/get-started/labs
-```
-
-</br> -->
-
 
 ```{toctree}
 :caption: Latest Blogs
 :hidden:
+blogs/k8s/ipam/ipam.md
 blogs/k8s/symlink/symlink.md
 blogs/k8s/deploy/deploy.md
 blogs/k8s/workloads/workloads.md
@@ -297,14 +209,6 @@ blogs/devops/gitlab-runner/gitlab-runner.md
 blogs/k8s/architecture/architecture.md
 blogs/k8s/ephemeral-storage-handson/ephemeral-storage-handson.md
 ```
-
-<!-- </br>
-
-```{toctree}
-:hidden:
-blogs/authors/gulcan.md
-``` -->
-
 
 ```{toctree}
 :caption: About

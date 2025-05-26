@@ -230,7 +230,6 @@ Enjoyed this read?
 If you found this guide helpful, folow me for more on:
 - [LinkedIn](https://www.linkedin.com/in/gulcantopcu/) to get the latest updates.
 - [Medium](https://medium.com/@gulcantopcu) for even more Kubernetes insights and discussions.
-- [Kuberada](https://kuberada.devtechops.dev/index.html), for in-depth articles.
 ### References
 * [ConfigMaps Documentation](https://kubernetes.io/docs/concepts/configuration/configmap/)
 * [Minikube Documentation](https://minikube.sigs.k8s.io/docs/)
