@@ -1,15 +1,14 @@
 % ckad-devops documentation master file, created by
 % sphinx-quickstart on Mon Jan  1 23:06:34 2024.
 
-# Hey There! <span style="font-size: 48px;">👋 </span>
+<p style="font-size: 16px; color: rgb(82, 167, 13)"> Welcome to my blog! I'm Gulcan.</p>
 
-<p style="font-size: 20px;">I'm Gulcan.</p>
-
+## Books
 
 ```{image} og/exterior.png
 :alt: Kubernetes Stories from the Trenches: Ten Real World Kubernetes
 :class: bg-primary
-:width: 100px
+:width: 100%
 :align: center
 :target: https://www.amazon.com/Kubernetes-Stories-Trenches-Real-World/dp/B0F1DQ43TC/ref=sr_1_2?crid=USOYQOTRWY8F&dib=eyJ2IjoiMSJ9.CG3JpvT5K2pH7Ur5tCHdHLFAmpFz3-x_xlEPRXV98jY7Pprh4M8zYOnRFWyP-cNZnsrStOdr8aEca3egQgvOhdm0MRnVt4ZZufS1UG5MBxBCZVeT3dxhdFcwOtHj9RIhXhjQaGv0CbSImMZ3_WEr632x2UcgNbwV6Bl-9Y0OPej_aLZUUpC_4L6RTWg5hIbgxi81YvPjeB2jwL7EW3yWfecevis4rmlv1dSXaGft17U.qoLQ2Aej75U8nI-El2w6-QXymDVtqdjmqIsj8fhZkX4&dib_tag=se&keywords=stories+from+the+trenches&qid=1743223756&s=books&sprefix=stories+from+the+trenche%2Cstripbooks-intl-ship%2C204&sr=1-2
 ```
