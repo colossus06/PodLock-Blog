@@ -13,12 +13,21 @@
 
 </br>
 
-::::{card-carousel} 
+::::{card-carousel} 2
+:::{card}
+:link: ptp
+:link-type: ref
+:img-bottom: og/ptp.png
+:width: 50%
+:text-align: center
+
+:::
+
 :::{card}
 :link: ipam
 :link-type: ref
 :img-bottom: og/ipam.png
-:width: 100%
+:width: 50%
 :text-align: center
 
 :::
@@ -60,7 +69,6 @@
 :img-bottom: og/mlops.png
 :width: 50%
 :text-align: center
-:class-body: custom-card-text
 
 :::
 
@@ -72,8 +80,6 @@
 :img-bottom: og/hard.png
 :width: 50%
 :text-align: center
-:class-body: custom-card-text
-
 
 :::
 
@@ -83,7 +89,6 @@
 :img-bottom: og/cicd.png
 :width: 50%
 :text-align: center
-:class-body: custom-card-text
 
 :::
 ::::
@@ -96,7 +101,6 @@
 :img-bottom: og/ingress-ssl.png
 :width: 50%
 :text-align: center
-:class-body: custom-card-text
 
 :::
 
@@ -106,8 +110,6 @@
 :img-bottom: og/argo.png
 :width: 50%
 :text-align: center
-:class-body: custom-card-text
-
 
 :::
 ::::
@@ -120,7 +122,6 @@
 :img-bottom: og/docker-scout.png
 :width: 50%
 :text-align: center
-:class-body: custom-card-text
 
 :::
 
@@ -130,8 +131,6 @@
 :img-bottom: og/istio.png
 :width: 50%
 :text-align: center
-:class-body: custom-card-text
-
 
 :::
 ::::
@@ -145,8 +144,6 @@
 :img-bottom: og/gitlab-container-registry.png
 :width: 50%
 :text-align: center
-:class-body: custom-card-text
-
 
 :::
 
@@ -156,8 +153,6 @@
 :img-bottom: og/gitlab-runner.png
 :width: 50%
 :text-align: center
-:class-body: custom-card-text
-
 
 :::
 ::::
@@ -170,8 +165,6 @@
 :img-bottom: og/kubernetes-architecture.png
 :width: 50%
 :text-align: center
-:class-body: custom-card-text
-
 
 :::
 
@@ -181,7 +174,6 @@
 :img-bottom: og/ephemeral-storage.png
 :width: 50%
 :text-align: center
-:class-body: custom-card-text
 
 :::
 ::::
@@ -189,6 +181,7 @@
 ```{toctree}
 :caption: Latest Blogs
 :hidden:
+blogs/k8s/ipam/ipam.md
 blogs/k8s/ipam/ipam.md
 blogs/k8s/symlink/symlink.md
 blogs/k8s/deploy/deploy.md

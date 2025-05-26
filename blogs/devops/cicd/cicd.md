@@ -12,24 +12,6 @@ myst:
 (cicd)=
 # Canary Deployments Made Easy: A CI/CD Journey with GitHub Actions and Argo CD Rollouts
 
-```{article-info}
-:avatar: https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/author.png
-:avatar-link: ../../../blogs/authors/gulcan.html
-:author: Gulcan Topcu
-:date: March 24, 2024
-:read-time: 15 min read
-:class-container: sd-p-2 sd-outline-light sd-rounded-2 sd-shadow-md
-```
-
-🏷️**Tagged with:**
-
-```{button-link} ../../../blogs/tag/devops.html
-:color: success
-:outline:
-:shadow:
-devops
-```
-
 ![alt text](assets/get_your_daily_cat_dose.png)
 
 Traditional software deployment methods are full of problems. 

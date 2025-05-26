@@ -1,15 +1,15 @@
 ---
 myst:
   html_meta:
-    "description lang=en": "Understand how Kubernetes assigns pod IPs, creates veth pairs, and wires networking with the Kindnet CNI. This detailed guide dissects pod network namespaces, CNI plugins, and how Kindnet uses the PTP and host-local plugins to establish L3 connectivity. Includes live Minikube validation, routing tables, and veth interface tracking."
+    "description lang=en": "This article breaks down the networking path a pod inherits at creation, using a Minikube cluster running Kubernetes with Kindnet. You'll see how the Kindnet CNI assigns IPs from the node’s PodCIDR, creates veth pairs linking the pod to the host network, and installs routing rules that define how the pod communicates within the cluster."
     "keywords": "Kubernetes, CNI, Kindnet, veth pair, pod networking, DevOps, Linux namespaces, Gulcan Topcu, Minikube, ptp plugin"
     "property=og:locale": "en_US"
-    "property=og:image": "https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/ipam.png"
+    "property=og:image": "https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/ptp.png"
 ---
 
-<img src="https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/ipam.png" alt="ipam" class="bg-primary">
+<img src="https://raw.githubusercontent.com/colossus06/PodLock-Blog/main/og/ptp.png" alt="ptp" class="bg-primary">
  
-(ipam)=
+(ptp)=
 # Inside a Pod’s Birth: Veth Pairs, IPAM, and Routing with Kindnet CNI
 
 When a Kubernetes pod starts, it doesn't just spin up a container. It gets a full, isolated network stack—complete with its own IP address, routing table, and virtual interface. But how exactly does this happen under the hood, especially when using the Kindnet CNI plugin?
