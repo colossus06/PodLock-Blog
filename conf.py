@@ -99,9 +99,9 @@ html_theme_options = {
 
 }
 
-html_js_files = [
-    'js/random_blue.js'
-]
+# html_js_files = [
+#     'js/random_blue.js'
+# ]
 
 # These are options specifically for the Wagtail Theme.
 myst_enable_extensions = [

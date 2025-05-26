@@ -40,22 +40,22 @@
 
 
 
-function getRandomDarkPastelBlueColor() {
-    // Generate a dark pastel blue by using higher RGB values with blue being dominant
-    const red = Math.floor(Math.random() * 50) + 100; // Keep red higher to ensure pastel tone but still dark
-    const green = Math.floor(Math.random() * 50) + 120; // Slightly higher green for pastel tone
-    const blue = Math.floor(Math.random() * 100) + 150; // Ensure blue is dominant and dark
+// function getRandomDarkPastelBlueColor() {
+//     // Generate a dark pastel blue by using higher RGB values with blue being dominant
+//     const red = Math.floor(Math.random() * 50) + 100; // Keep red higher to ensure pastel tone but still dark
+//     const green = Math.floor(Math.random() * 50) + 120; // Slightly higher green for pastel tone
+//     const blue = Math.floor(Math.random() * 100) + 150; // Ensure blue is dominant and dark
 
-    return `rgb(${red}, ${green}, ${blue})`;
-}
+//     return `rgb(${red}, ${green}, ${blue})`;
+// }
 
-// Apply the random dark pastel blue color to elements with the class 'custom-card-text'
-document.addEventListener("DOMContentLoaded", function() {
-    const elements = document.querySelectorAll('.custom-card-text');
-    elements.forEach(function(element) {
-        element.style.backgroundColor = getRandomDarkPastelBlueColor();
-    });
-});
+// // Apply the random dark pastel blue color to elements with the class 'custom-card-text'
+// document.addEventListener("DOMContentLoaded", function() {
+//     const elements = document.querySelectorAll('.custom-card-text');
+//     elements.forEach(function(element) {
+//         element.style.backgroundColor = getRandomDarkPastelBlueColor();
+//     });
+// });
 
 
 // Array of emojis
