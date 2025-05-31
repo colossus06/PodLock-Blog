@@ -4,29 +4,33 @@
 
 ## Books
 
-```{image} og/exterior.png
+<!-- ```{image} og/exterior.png
 :alt: Kubernetes Stories from the Trenches: Ten Real World Kubernetes
 :class: bg-primary
 :width: 50%
 :align: center
 :target: https://www.amazon.com/Kubernetes-Stories-Trenches-Real-World/dp/B0F1DQ43TC/ref=sr_1_2?crid=USOYQOTRWY8F&dib=eyJ2IjoiMSJ9.CG3JpvT5K2pH7Ur5tCHdHLFAmpFz3-x_xlEPRXV98jY7Pprh4M8zYOnRFWyP-cNZnsrStOdr8aEca3egQgvOhdm0MRnVt4ZZufS1UG5MBxBCZVeT3dxhdFcwOtHj9RIhXhjQaGv0CbSImMZ3_WEr632x2UcgNbwV6Bl-9Y0OPej_aLZUUpC_4L6RTWg5hIbgxi81YvPjeB2jwL7EW3yWfecevis4rmlv1dSXaGft17U.qoLQ2Aej75U8nI-El2w6-QXymDVtqdjmqIsj8fhZkX4&dib_tag=se&keywords=stories+from+the+trenches&qid=1743223756&s=books&sprefix=stories+from+the+trenche%2Cstripbooks-intl-ship%2C204&sr=1-2
-```
+``` -->
 
 ::::{card-carousel} 2
 :::{card}
-:link: ptp
+:link: https://www.amazon.com/Kubernetes-Stories-Trenches-Real-World/dp/B0F1DQ43TC/ref=sr_1_2?crid=USOYQOTRWY8F&dib=eyJ2IjoiMSJ9.CG3JpvT5K2pH7Ur5tCHdHLFAmpFz3-x_xlEPRXV98jY7Pprh4M8zYOnRFWyP-cNZnsrStOdr8aEca3egQgvOhdm0MRnVt4ZZufS1UG5MBxBCZVeT3dxhdFcwOtHj9RIhXhjQaGv0CbSImMZ3_WEr632x2UcgNbwV6Bl-9Y0OPej_aLZUUpC_4L6RTWg5hIbgxi81YvPjeB2jwL7EW3yWfecevis4rmlv1dSXaGft17U.qoLQ2Aej75U8nI-El2w6-QXymDVtqdjmqIsj8fhZkX4&dib_tag=se&keywords=stories+from+the+trenches&qid=1743223756&s=books&sprefix=stories+from+the+trenche%2Cstripbooks-intl-ship%2C204&sr=1-2
 :link-type: ref
-:target: https://www.amazon.com/Kubernetes-Stories-Trenches-Real-World/dp/B0F1DQ43TC/ref=sr_1_2?crid=USOYQOTRWY8F&dib=eyJ2IjoiMSJ9.CG3JpvT5K2pH7Ur5tCHdHLFAmpFz3-x_xlEPRXV98jY7Pprh4M8zYOnRFWyP-cNZnsrStOdr8aEca3egQgvOhdm0MRnVt4ZZufS1UG5MBxBCZVeT3dxhdFcwOtHj9RIhXhjQaGv0CbSImMZ3_WEr632x2UcgNbwV6Bl-9Y0OPej_aLZUUpC_4L6RTWg5hIbgxi81YvPjeB2jwL7EW3yWfecevis4rmlv1dSXaGft17U.qoLQ2Aej75U8nI-El2w6-QXymDVtqdjmqIsj8fhZkX4&dib_tag=se&keywords=stories+from+the+trenches&qid=1743223756&s=books&sprefix=stories+from+the+trenche%2Cstripbooks-intl-ship%2C204&sr=1-2
+:img-bottom: og/exterior.png
 :width: 50%
 :text-align: center
+
+Order a copy on Amazon!
 :::
 
 :::{card}
-:link: ptp
+:link: https://kube.fm/stories-from-the-trenches
 :link-type: ref
-:target: https://www.amazon.com/Kubernetes-Stories-Trenches-Real-World/dp/B0F1DQ43TC/ref=sr_1_2?crid=USOYQOTRWY8F&dib=eyJ2IjoiMSJ9.CG3JpvT5K2pH7Ur5tCHdHLFAmpFz3-x_xlEPRXV98jY7Pprh4M8zYOnRFWyP-cNZnsrStOdr8aEca3egQgvOhdm0MRnVt4ZZufS1UG5MBxBCZVeT3dxhdFcwOtHj9RIhXhjQaGv0CbSImMZ3_WEr632x2UcgNbwV6Bl-9Y0OPej_aLZUUpC_4L6RTWg5hIbgxi81YvPjeB2jwL7EW3yWfecevis4rmlv1dSXaGft17U.qoLQ2Aej75U8nI-El2w6-QXymDVtqdjmqIsj8fhZkX4&dib_tag=se&keywords=stories+from+the+trenches&qid=1743223756&s=books&sprefix=stories+from+the+trenche%2Cstripbooks-intl-ship%2C204&sr=1-2
+:img-bottom: og/exterior-ebook.png
 :width: 50%
 :text-align: center
+
+Download a free e-book copy!
 :::
 ::::
 
