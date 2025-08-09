@@ -36,6 +36,34 @@ Download a free e-book copy!
 
 ## Latest Blogs
 
+:::{card}
+:link: sigma
+:link-type: ref
+:img-bottom: og/sigma.png
+:width: 50%
+:text-align: center
+:::
+
+::::{card-carousel} 2
+:::{card}
+:link: soc
+:link-type: ref
+:img-bottom: og/soc.png
+:width: 50%
+:text-align: center
+
+:::
+
+:::{card}
+:link: time
+:link-type: ref
+:img-bottom: og/time.png
+:width: 50%
+:text-align: center
+
+:::
+::::
+
 </br>
 
 ::::{card-carousel} 2
@@ -160,7 +188,6 @@ Download a free e-book copy!
 :::
 ::::
 
-
 ::::
 ::::{card-carousel} 2
 :::{card}
@@ -206,6 +233,9 @@ Download a free e-book copy!
 ```{toctree}
 :caption: Latest Blogs
 :hidden:
+blogs/k8s/sigma/sigma.md
+blogs/k8s/soc/soc.md
+blogs/k8s/time/time.md
 blogs/k8s/ptp/ptp.md
 blogs/k8s/ipam/ipam.md
 blogs/k8s/symlink/symlink.md
