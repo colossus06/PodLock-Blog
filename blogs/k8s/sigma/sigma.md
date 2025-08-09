@@ -250,24 +250,11 @@ This handles the “what is it?” question, but detection engineering is not st
 
 ### Extending Coverage
 
-Once the base detection is proven stable, we extend it to include additional SQL injection techniques. Stacked queries, blind boolean-based payloads, and database-specific commands are all candidates for expansion. Sigma’s `condition` structure makes this straightforward: we add new patterns as separate selections, then reference them alongside the existing ones without rewriting the whole rule.
+Once the base detection is proven stable, we extend it to include additional SQL injection techniques.
 
-```yaml
-q_stacked_queries:
-  cs_uri_query|re: (?i);\s*shutdown\b
-b_stacked_queries:
-  sc_content|re: (?i);\s*shutdown\b
-q_blind_boolean:
-  cs_uri_query|re: (?i)and\s+\d+\s*=\s*\d+\s+waitfor\s+delay
-b_blind_boolean:
-  sc_content|re: (?i)and\s+\d+\s*=\s*\d+\s+waitfor\s+delay
+Stacked queries, blind boolean-based payloads, and database-specific commands are all candidates for expansion.
 
-condition: 1 of q_* or 1 of b_*
-```
-
-By keeping the rule modular, we can push updates through Git and CI/CD just like any other code change. Every backend gets the updated logic automatically, and the detection set grows alongside our threat intelligence.
-
-The existing tautology and UNION checks stay as they are—we simply append more patterns. The `condition` structure already matches `1 of q_* or 1 of b_*`, so scaling the coverage is as simple as defining a new selection.
+Sigma’s `condition` structure makes this straightforward: we add new patterns as separate selections, then reference them alongside the existing ones without rewriting the whole rule:
 
 ```yaml
   q_stacked_queries:
