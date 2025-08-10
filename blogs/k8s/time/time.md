@@ -14,9 +14,17 @@ myst:
 (time)=
 # Time, Errors, and Unions: Practical SQL Injection Exploitation and Detection
 
+You're reading part 1 of the 3-part SOC detection on Kubernetes with Sigma series:
+
+- [Part 2: Detection pipeline in Kubernetes with Falco (syscalls), Zeek (network), Fluent Bit, Loki, and Grafana](https://podlock.readthedocs.io/blogs/k8s/soc/soc.html#soc)
+- [Part 3: Portable SIGMA rules with CI/CD that compile to Loki, Elasticsearch, and Splunk automatically](https://podlock.readthedocs.io/blogs/k8s/sigma/sigma.html)
+
 In this article, we will build a controlled PHP–MySQL lab to execute and study SQL injection techniques including authentication bypass, UNION-based extraction, error-based leaks, boolean-based inference, and time-based blind enumeration. We will test each method with `curl` to understand the mechanics and artifacts it leaves at application, network, and database layers.
 
 SQL-based databases remain the backbone of most modern systems. As of August 2025, Oracle, MySQL, SQL Server, and PostgreSQL hold the top four positions in DB-Engines’ global ranking. Their dominance in enterprise and internet-facing applications makes them a consistent target for SQL injection.
+
+📚 For more information about this project and source code:
+GitHub Repository: https://github.com/colossus06/sigma-soc-detection-lab
 
 SQL injection is an input handling flaw where user-controlled data is embedded directly into a database query without proper isolation or validation. When we construct SQL statements by concatenating raw input with query logic, the database loses the ability to distinguish between trusted code and untrusted data. This allows attackers to inject their own SQL syntax, altering the intended behavior of the query.
 

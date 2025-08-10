@@ -14,9 +14,17 @@ myst:
 (soc)=
 # Building a Detection-Ready SOC Lab on Kubernetes: From Pod to Signal
 
+You're reading part 2 of the 3-part SOC detection on Kubernetes with Sigma series:
+
+- [Part 1: Manual SQL injection with Docker, PHP, MySQL - covers error-based, boolean-based, time-based, and UNION techniques](https://podlock.readthedocs.io/blogs/k8s/time/time.html#time)
+- [Part 3: Portable SIGMA rules with CI/CD that compile to Loki, Elasticsearch, and Splunk automatically](https://podlock.readthedocs.io/blogs/k8s/sigma/sigma.html)
+
 In the first article, we built a hands-on SQL injection exploitation and detection lab using a minimal Docker environment—PHP as the application layer and MySQL as the backend.
 
 We walked through four main injection techniques—error-based, boolean-based, time-based, and UNION—and showed exactly how to execute each one manually with crafted payloads.
+
+📚 For more information about this project and source code:
+GitHub Repository: https://github.com/colossus06/sigma-soc-detection-lab
 
 In this blog, we'll deploy OWASP Juice Shop to a minikube cluster, instrument the cluster with Falco for syscall-level visibility, and add Zeek for passive network inspection. Every signal will be routed through Fluent Bit into Loki for centralized analysis.
 

@@ -14,9 +14,17 @@ myst:
 (sigma)=
 # SQL Injection Detection with Sigma on Kubernetes
 
+You're reading part 3 of the 3-part SOC detection on Kubernetes with Sigma series:
+
+- [Part 1: Manual SQL injection with Docker, PHP, MySQL - covers error-based, boolean-based, time-based, and UNION techniques](https://podlock.readthedocs.io/blogs/k8s/time/time.html#time)
+- [Part 2: Detection pipeline in Kubernetes with Falco (syscalls), Zeek (network), Fluent Bit, Loki, and Grafana](https://podlock.readthedocs.io/blogs/k8s/soc/soc.html#soc)
+
 In the earlier parts of this series, we built a controlled SQL injection lab with Docker and PHP, then deployed OWASP Juice Shop on Minikube with Falco, Zeek, and Loki to capture attacks in real time. We started with basic string matching and log aggregation to catch common SQL injection patterns.
 
 In a production SOC, these same detections must work across multiple platforms, handle enterprise-scale log volumes, and integrate cleanly into the existing security stack. Relying on raw string matching quickly becomes unmanageable when logs come in varied formats, attackers change tactics, and teams need to maintain hundreds of rules over time.
+
+📚 For more information about this project and source code:
+GitHub Repository: https://github.com/colossus06/sigma-soc-detection-lab
 
 Our goal in this stage is to take what worked in the lab and make it portable. That means a single rule definition that we can run on Loki today, and tomorrow in Elastic or Splunk, without rewriting the logic for each backend.
 
